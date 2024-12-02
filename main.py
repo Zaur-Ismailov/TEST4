@@ -1,3 +1,5 @@
-print('Привет всем')
-print('new info')
-print('234')
+def hello_world():
+    return 'Hello world!'
+
+if __name__ == '__main__':
+    hello_world()
